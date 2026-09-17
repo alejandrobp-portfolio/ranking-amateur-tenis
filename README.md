@@ -1,56 +1,49 @@
-# Welcome to your Expo app 👋
+# 🎾 Ranking Amateur de Tenis — Uruguay
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+> 🚧 **Proyecto en desarrollo**
 
-## Get started
+Plataforma digital para desarrollar un sistema de **ranking y seguimiento del rendimiento del tenis amateur en Uruguay**.
 
-1. Install dependencies
+## 💡 Origen del proyecto
 
-   ```bash
-   npm install
-   ```
+La idea nace de mi experiencia personal dentro del tenis y de buscar una solución que pudiera desarrollar de forma realista utilizando mis conocimientos en **Data Science y tecnología**.
 
-2. Start the app
+Durante varios años competí en tenis amateur en los Países Bajos y posteriormente trabajé como entrenador en una academia de tenis en La Haya. Esta experiencia me permitió conocer de cerca un ecosistema deportivo con una infraestructura digital más desarrollada para organizar jugadores, competencias y niveles.
 
-   ```bash
-   npx expo start
-   ```
+Al regresar a Uruguay identifiqué la oportunidad de aplicar los conocimientos adquiridos durante mi **Máster en Ciencia de Datos en Tilburg University** para comenzar a desarrollar una solución propia.
 
-In the output, you'll find options to open the app in a
+El objetivo es contribuir al desarrollo de la **infraestructura digital del deporte amateur uruguayo**, comenzando por el tenis: conectar jugadores, resultados y competencias dentro de un sistema capaz de transformar esa actividad deportiva en información útil.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🎯 Objetivo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Desarrollar una plataforma donde los jugadores puedan crear su perfil, registrar su actividad competitiva y construir progresivamente un ranking basado en resultados reales.
 
-## Get a fresh project
+El sistema busca diferenciar tres dimensiones:
 
-When you're ready, run:
+- **Ranking:** posición competitiva basada en resultados.
+- **Fuerza:** estimación del nivel actual del jugador.
+- **Forma:** rendimiento reciente.
+
+## ⚙️ Tecnologías
+
+**React Native · Expo · TypeScript · Supabase · PostgreSQL**
+
+## 📱 Funcionalidades actuales
+
+- Registro y autenticación de usuarios
+- Creación de perfiles de jugadores
+- Base de datos PostgreSQL
+- Sistema de permisos mediante Row Level Security (RLS)
+- Visualización del ranking
+- Perfiles individuales de jugadores
+
+## 🧠 Próximos desarrollos
+
+El proyecto continuará incorporando registro de partidos, evolución del ranking, estimación del nivel de juego, historial competitivo y herramientas para clubes y organizadores.
+
+## 💻 Ejecutar el proyecto
+
+Instalar las dependencias:
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-### Other setup steps
-
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+npm install
